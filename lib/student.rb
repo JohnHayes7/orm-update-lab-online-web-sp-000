@@ -64,7 +64,7 @@ end
 
 def update
   sql = <<-SQL
-  UPDATE students set 
+  UPDATE students SET name = ?
   SQL
 
 
