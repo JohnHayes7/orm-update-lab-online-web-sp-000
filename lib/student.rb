@@ -57,7 +57,7 @@ def self.find_by_name(name)
   WHERE name = ?
   SQL
   
-  row = DB[:conn].execute(sql, name)
+  row = DB[:conn].execute(sql, name)[0]
   binding.pry
 end
 
