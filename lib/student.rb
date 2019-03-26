@@ -33,7 +33,7 @@ def save
   VALUES (?, ?)
   SQL
   
-  DB[:conn].execute(self.name)
+  DB[:conn].execute(sql, self.name, self.grade)
 
 
 end
