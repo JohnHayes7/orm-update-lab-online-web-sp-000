@@ -27,5 +27,10 @@ def self.create_table
   DB[:conn].execute(sql)
 end
 
+def save
+  sql = <<-SQL
+  
+  SQL
+
 
 end
