@@ -38,6 +38,8 @@ def save
 end
 
 def self.create(name, grade)
+  
+end
 
 
 end
