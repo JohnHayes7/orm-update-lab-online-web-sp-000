@@ -62,7 +62,7 @@ def self.find_by_name(name)
   student
 end
 
-def 
+def update
 
 
 end
